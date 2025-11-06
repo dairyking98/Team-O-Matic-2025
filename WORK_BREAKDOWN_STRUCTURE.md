@@ -68,7 +68,7 @@ This Work Breakdown Structure decomposes the battery swapping prototype project 
 
 #### 1.3 Component Selection & BOM
 - **WBS Code:** 1.3
-- **Owner:** Ben (Lead), Sam (Support)
+- **Owner:** Ben (Lead - Hardware Components), Sam (Lead - Microcontroller/Sensors), Leonard (Support - Materials/Fabrication)
 - **Duration:** 3 days
 - **Deliverables:**
   - Finalized Bill of Materials (BOM)
@@ -76,25 +76,25 @@ This Work Breakdown Structure decomposes the battery swapping prototype project 
   - Vendor information and pricing
   - Budget analysis (≤ $200)
 - **Tasks:**
-  - 1.3.1 Research and select hydraulic components
+  - 1.3.1 Research and select hydraulic components (Ben Lead)
     - 1.3.1.1 Hydraulic cylinders (size, stroke length)
     - 1.3.1.2 Control valves (solenoid type)
     - 1.3.1.3 Hydraulic pump (manual or electric < 48V)
     - 1.3.1.4 Reservoir and fittings
-  - 1.3.2 Select microcontroller and sensors
+  - 1.3.2 Select microcontroller and sensors (Sam Lead, Leonard Support)
     - 1.3.2.1 Microcontroller (Arduino or similar)
     - 1.3.2.2 Position sensors (potentiometers/encoders)
     - 1.3.2.3 Limit switches
     - 1.3.2.4 Force sensors (if budget allows)
     - 1.3.2.5 Battery detection sensors
-  - 1.3.3 Select structural materials
+  - 1.3.3 Select structural materials (Leonard Lead, Ben Support)
     - 1.3.3.1 Base platform material (aluminum/steel)
     - 1.3.3.2 Boom arm material
     - 1.3.3.3 Fasteners and hardware
-  - 1.3.4 Select battery mockup materials
-  - 1.3.5 Create detailed BOM with costs
-  - 1.3.6 Verify budget compliance
-  - 1.3.7 Identify backup vendors
+  - 1.3.4 Select battery mockup materials (Leonard Lead)
+  - 1.3.5 Create detailed BOM with costs (Ben Lead, All Support)
+  - 1.3.6 Verify budget compliance (Ben Lead)
+  - 1.3.7 Identify backup vendors (Ben Lead)
 
 #### 1.4 Design Review & Planning
 - **WBS Code:** 1.4
@@ -120,18 +120,18 @@ This Work Breakdown Structure decomposes the battery swapping prototype project 
 
 #### 2.1 Component Procurement
 - **WBS Code:** 2.1
-- **Owner:** Ben (Lead), Sam (Support)
+- **Owner:** Ben (Lead - Hardware Components), Sam (Lead - Microcontroller/Sensors), Leonard (Support - Materials)
 - **Duration:** 2 days
 - **Deliverables:**
   - All components received
   - Component verification checklist
   - Procurement log
 - **Tasks:**
-  - 2.1.1 Place orders for all BOM items
-  - 2.1.2 Track shipping and delivery
-  - 2.1.3 Verify component specifications upon arrival
-  - 2.1.4 Identify any substitutions needed
-  - 2.1.5 Document any component issues
+  - 2.1.1 Place orders for all BOM items (Ben Lead hardware, Sam Lead microcontroller/sensors)
+  - 2.1.2 Track shipping and delivery (Ben Lead, All Support)
+  - 2.1.3 Verify component specifications upon arrival (Ben Lead hardware, Sam Lead sensors/microcontroller)
+  - 2.1.4 Identify any substitutions needed (Ben Lead, All Support)
+  - 2.1.5 Document any component issues (Ben Lead)
 
 #### 2.2 Base Structure Fabrication
 - **WBS Code:** 2.2
@@ -174,7 +174,7 @@ This Work Breakdown Structure decomposes the battery swapping prototype project 
 
 #### 2.4 Battery Mockup & Interface
 - **WBS Code:** 2.4
-- **Owner:** Sam (Lead), Leonard (Fabrication Support)
+- **Owner:** Leonard (Lead - Fabrication), Sam (Lead - Design/Interface), Mohammed (Support - Design Review)
 - **Duration:** 3 days
 - **Deliverables:**
   - Two battery mockups (old and new)
@@ -182,15 +182,15 @@ This Work Breakdown Structure decomposes the battery swapping prototype project 
   - Connector mockups installed
   - Fit verification report
 - **Tasks:**
-  - 2.4.1 Design battery mockup (scaled, ~5-10 lbs)
-  - 2.4.2 Create battery mockups (2 units)
-  - 2.4.3 Design and fabricate battery mounting interface
-    - 2.4.3.1 Design latch mechanism
-    - 2.4.3.2 Design alignment features
-    - 2.4.3.3 Fabricate mounting bracket
-  - 2.4.4 Install connectors (mock electrical connections)
-  - 2.4.5 Test fit with boom crane gripper
-  - 2.4.6 Verify battery can be securely held and released
+  - 2.4.1 Design battery mockup (scaled, ~5-10 lbs) (Sam Lead, Mohammed Support)
+  - 2.4.2 Create battery mockups (2 units) (Leonard Lead, Sam Support)
+  - 2.4.3 Design and fabricate battery mounting interface (Leonard Lead Fabrication, Sam Lead Design)
+    - 2.4.3.1 Design latch mechanism (Sam Lead, Mohammed Support)
+    - 2.4.3.2 Design alignment features (Sam Lead, Mohammed Support)
+    - 2.4.3.3 Fabricate mounting bracket (Leonard Lead)
+  - 2.4.4 Install connectors (mock electrical connections) (Leonard Lead, Sam Support)
+  - 2.4.5 Test fit with boom crane gripper (Leonard Lead, All Support)
+  - 2.4.6 Verify battery can be securely held and released (Leonard Lead, All Support)
 
 ---
 
@@ -242,37 +242,37 @@ This Work Breakdown Structure decomposes the battery swapping prototype project 
 
 #### 3.3 Control System Development
 - **WBS Code:** 3.3
-- **Owner:** Sam (Primary), Ben (Hardware Support)
+- **Owner:** Sam (Primary - Microcontroller/DSP), Leonard (Support - Microcontroller/AI Programming), Ben (Hardware Support)
 - **Duration:** 3 days
 - **Deliverables:**
   - Functional control system
   - Control system code
   - Control sequence documentation
 - **Tasks:**
-  - 3.3.1 Set up microcontroller development environment
-  - 3.3.2 Program microcontroller for hydraulic control
-    - 3.3.2.1 Implement valve control functions
-    - 3.3.2.2 Implement sensor reading functions
-    - 3.3.2.3 Implement safety interlock functions
-  - 3.3.3 Implement boom positioning algorithm
-    - 3.3.3.1 Develop position control logic
-    - 3.3.3.2 Implement PID or simple control algorithm
-  - 3.3.4 Implement battery pickup sequence
+  - 3.3.1 Set up microcontroller development environment (Sam Lead, Leonard Support)
+  - 3.3.2 Program microcontroller for hydraulic control (Sam Lead, Leonard Support)
+    - 3.3.2.1 Implement valve control functions (Sam Lead, Ben Hardware Support)
+    - 3.3.2.2 Implement sensor reading functions (Sam Lead, Leonard Support)
+    - 3.3.2.3 Implement safety interlock functions (Sam Lead, Ben Support)
+  - 3.3.3 Implement boom positioning algorithm (Sam Lead, Leonard Support - AI/Algorithm)
+    - 3.3.3.1 Develop position control logic (Sam Lead, Leonard Support)
+    - 3.3.3.2 Implement PID or simple control algorithm (Sam Lead, Leonard Support)
+  - 3.3.4 Implement battery pickup sequence (Sam Lead, Leonard Support)
     - 3.3.4.1 Approach battery position
     - 3.3.4.2 Engage battery gripper
     - 3.3.4.3 Release battery from vehicle
-  - 3.3.5 Implement battery placement sequence
+  - 3.3.5 Implement battery placement sequence (Sam Lead, Leonard Support)
     - 3.3.5.1 Approach vehicle position
     - 3.3.5.2 Insert new battery
     - 3.3.5.3 Lock battery in place
     - 3.3.5.4 Disengage gripper
-  - 3.3.6 Implement safety interlocks
+  - 3.3.6 Implement safety interlocks (Sam Lead, Ben Support)
     - 3.3.6.1 Emergency stop functionality
     - 3.3.6.2 Position limit checking
     - 3.3.6.3 Battery detection verification
-  - 3.3.7 Create manual override capability
-  - 3.3.8 Test individual control sequences
-  - 3.3.9 Debug and refine control code
+  - 3.3.7 Create manual override capability (Sam Lead, Ben Support)
+  - 3.3.8 Test individual control sequences (Sam Lead, All Support)
+  - 3.3.9 Debug and refine control code (Sam Lead, Leonard Support)
 
 #### 3.4 System Integration & Initial Testing
 - **WBS Code:** 3.4
@@ -405,37 +405,41 @@ This Work Breakdown Structure decomposes the battery swapping prototype project 
 ### By Team Member
 
 **Mohammed:**
-- 1.1 Conceptual Design (Lead)
-- 1.2 CAD Design (Primary)
-- 4.1 Testing & Optimization (Lead)
+- 1.1 Conceptual Design (Lead) - *Strength: SolidWorks + Design*
+- 1.2 CAD Design (Primary) - *Strength: SolidWorks + Design*
+- 2.3 Boom Crane Fabrication (Design Support) - *Strength: Design*
+- 2.4 Battery Mockup (Design Support) - *Strength: Design*
+- 4.1 Testing & Optimization (Lead) - *Role: Head of Testing and Subsystem Integration*
 - 4.3 Documentation (Assigned sections)
 
 **Leonard:**
-- 1.1 Conceptual Design (Support)
-- 1.2 CAD Design (Review)
-- 2.2 Base Structure Fabrication (Lead)
-- 2.3 Boom Crane Fabrication (Primary)
-- 2.4 Battery Mockup (Fabrication Support)
+- 1.1 Conceptual Design (Support) - *Strength: 3D Modeling + Fusion 360*
+- 1.2 CAD Design (Review) - *Strength: 3D Modeling + Fusion 360*
+- 1.3 Component Selection (Support - Materials/Fabrication) - *Strength: Fabrication knowledge*
+- 2.2 Base Structure Fabrication (Lead) - *Strength: Hands on fabrication, metal, welding*
+- 2.3 Boom Crane Fabrication (Primary) - *Strength: Hands on fabrication, metal, welding*
+- 2.4 Battery Mockup & Interface (Lead - Fabrication) - *Strength: Hands on fabrication, plastic, metal*
+- 3.3 Control System Development (Support - Microcontroller/AI) - *Strength: Circuitry, microcontrollers, AI for programming*
 - 4.3 Documentation (Assigned sections)
 
 **Ben:**
-- 1.3 Component Selection & BOM (Lead)
-- 2.1 Component Procurement (Lead)
-- 2.2 Base Structure Fabrication (Support)
-- 3.1 Hydraulic System Integration (Lead)
-- 3.2 Sensor Installation (Support)
-- 3.3 Control System Development (Hardware Support)
-- 4.2 Safety & Compliance Verification (Lead)
+- 1.3 Component Selection & BOM (Lead - Hardware) - *Strength: Hardware and control, building*
+- 2.1 Component Procurement (Lead - Hardware) - *Strength: Hardware*
+- 2.2 Base Structure Fabrication (Support) - *Strength: Building + hands-on skills*
+- 3.1 Hydraulic System Integration (Lead) - *Strength: Hardware and control*
+- 3.2 Sensor Installation (Support) - *Strength: Hardware*
+- 3.3 Control System Development (Hardware Support) - *Strength: Hardware and control*
+- 4.2 Safety & Compliance Verification (Lead) - *Strength: Hardware, safety focus*
 - 4.3 Documentation (Assigned sections)
 
 **Sam:**
-- 1.3 Component Selection & BOM (Support)
-- 2.1 Component Procurement (Support)
-- 2.4 Battery Mockup & Interface (Lead)
-- 3.1 Hydraulic System Integration (Control Support)
-- 3.2 Sensor Installation (Lead)
-- 3.3 Control System Development (Primary)
-- 4.1 Testing & Optimization (Support)
+- 1.3 Component Selection & BOM (Lead - Microcontroller/Sensors) - *Strength: Microcontroller processing and DSP*
+- 2.1 Component Procurement (Lead - Microcontroller/Sensors) - *Strength: Microcontroller processing*
+- 2.4 Battery Mockup & Interface (Lead - Design/Interface) - *Strength: Hands on*
+- 3.1 Hydraulic System Integration (Control Support) - *Strength: Control systems*
+- 3.2 Sensor Installation (Lead) - *Strength: Microcontroller processing and DSP*
+- 3.3 Control System Development (Primary) - *Strength: Microcontroller processing and digital signal processing*
+- 4.1 Testing & Optimization (Support) - *Strength: DSP for optimization*
 - 4.3 Documentation (Assigned sections)
 
 ---

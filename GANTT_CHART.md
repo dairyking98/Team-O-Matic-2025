@@ -1,9 +1,11 @@
-# Gantt Chart - Battery Swapping Prototype (4-Week Deliverable)
+# Gantt Chart - Battery Swapping Prototype (First Prototype)
 
 **Project:** Team-O-Matic Battery Swapping System  
 **Focus:** Boom Crane with Hydraulic Actuation Mechanism  
-**Timeline:** 4 Weeks (First Semester Prototype)  
-**Date Created:** October 2025
+**Timeline:** 6 Weeks (November 6 - December 19, 2025)  
+**Final Deliverable:** First Prototype Demonstration - December 19, 2025  
+**Date Created:** October 2025  
+**Last Updated:** November 2025
 
 ---
 
@@ -22,42 +24,50 @@ This Gantt chart outlines the development timeline for the battery swapping subs
 
 ## Timeline Overview
 
-| Week | Phase | Key Deliverables |
-|------|-------|------------------|
-| **Week 1** | Design & Planning | Detailed CAD models, component selection, BOM finalized |
-| **Week 2** | Procurement & Fabrication | All components acquired, base structure built |
-| **Week 3** | Integration & Control | Hydraulic system integrated, control system functional |
-| **Week 4** | Testing & Documentation | System tested, refined, documentation complete |
+| Week | Dates | Phase | Key Deliverables |
+|------|-------|-------|------------------|
+| **Week 1** | Nov 6-12 | Design & Planning | Conceptual design, initial CAD models, component research |
+| **Week 2** | Nov 13-19 | Design Finalization & Procurement | CAD complete, BOM finalized, orders placed |
+| **Week 3** | Nov 20-26 | Procurement & Initial Setup | Components received, lab setup, component testing |
+| **Week 4** | Nov 27 - Dec 3 | Fabrication | Base structure, boom crane fabrication begins |
+| **Week 5** | Dec 4-10 | Assembly & Integration | Mechanical assembly, hydraulic integration, sensor installation |
+| **Week 6** | Dec 11-19 | Testing, Refinement & Documentation | System testing, optimization, documentation, final demonstration prep |
 
 ---
 
 ## Detailed Task Breakdown
 
-### Week 1: Design & Planning (Days 1-7)
+### Week 1: Design & Planning (Nov 6-12)
 
-#### Days 1-2: Conceptual Design & Research
+#### Conceptual Design & Research
 - **Owner:** Mohammed (Lead), Leonard (Support)
 - **Tasks:**
   - Research existing boom crane mechanisms
+  - Research existing battery swapping systems
   - Analyze hydraulic actuation requirements
   - Define battery interface specifications (connector type, mounting points)
-  - Create initial concept sketches
+  - Create initial concept sketches (3-5 variations)
   - Identify critical design constraints
-- **Deliverable:** Design concept document with sketches
+  - Team brainstorming sessions
+- **Deliverable:** Design concept document with sketches, research summary
 
-#### Days 3-5: Detailed CAD Design
+#### Detailed CAD Design (Week 1 continued)
 - **Owner:** Mohammed (Primary), Leonard (Review & Input)
 - **Tasks:**
   - Design boom crane structure (SolidWorks)
   - Design battery mounting/release mechanism
   - Design hydraulic actuator mounting points
   - Design base platform/structure
-  - Create assembly drawings
+  - Design battery mounting interface on vehicle mockup
+  - Create assembly drawings with dimensions
   - Perform basic stress analysis on critical components
-- **Deliverable:** Complete CAD assembly with all components
+  - Iterate on design based on team feedback
+- **Deliverable:** Complete CAD assembly with all components, manufacturing drawings
 
-#### Days 4-6: Component Selection & BOM
-- **Owner:** Ben (Lead), Sam (Support)
+### Week 2: Design Finalization & Procurement (Nov 13-19)
+
+#### Component Selection, BOM & Design Review
+- **Owner:** Ben (Lead Component Selection), Sam (Support), Mohammed (Design Review Lead), All Team Members
 - **Tasks:**
   - Research and select hydraulic components (cylinders, valves, pump)
   - Select microcontroller and sensors (position, force, limit switches)
@@ -65,93 +75,126 @@ This Gantt chart outlines the development timeline for the battery swapping subs
   - Identify battery mockup materials
   - Create detailed BOM with costs
   - Verify budget compliance (≤ $200)
-- **Deliverable:** Finalized BOM with vendor information
-
-#### Day 7: Design Review & Planning
-- **Owner:** All Team Members
-- **Tasks:**
+  - Identify backup vendors
   - Team design review meeting
   - Validate design against requirements
   - Identify potential risks and mitigation strategies
   - Finalize fabrication sequence
   - Assign specific fabrication tasks
-- **Deliverable:** Design review document, updated timeline
+- **Deliverable:** Finalized BOM with vendor information, design review document, updated timeline
 
-**Week 1 Milestone:** ✅ Design approved, BOM finalized, ready for procurement
-
----
-
-### Week 2: Procurement & Fabrication (Days 8-14)
-
-#### Days 8-9: Component Procurement
+#### Component Procurement (Week 2 continued)
 - **Owner:** Ben (Lead), Sam (Support)
 - **Tasks:**
-  - Order all components from BOM
+  - Place orders for all BOM items
   - Track shipping and delivery
   - Verify component specifications upon arrival
   - Identify any substitutions needed
-- **Deliverable:** All components received and verified
+  - Document any component issues
+  - Prepare lab space and tools
+- **Deliverable:** Orders placed, procurement tracking initiated
 
-#### Days 10-12: Base Structure Fabrication
+**Week 1-2 Milestone:** ✅ Design approved, BOM finalized, procurement initiated
+
+---
+
+### Week 3: Procurement & Initial Setup (Nov 20-26)
+
+#### Component Receipt & Initial Setup
+- **Owner:** All Team Members
+- **Tasks:**
+  - Set up lab workspace
+  - Test individual components (sensors, actuators, microcontroller)
+  - Verify component compatibility
+  - Begin preliminary assembly planning
+  - Create fabrication jigs/templates if needed
+  - Safety equipment check
+- **Deliverable:** All components received and verified, lab space prepared, components tested
+
+**Week 3 Milestone:** ✅ All components acquired and verified, lab ready
+
+---
+
+### Week 4: Fabrication (Nov 27 - Dec 3)
+
+#### Base Structure Fabrication
 - **Owner:** Leonard (Lead), Ben (Support)
 - **Tasks:**
   - Cut and prepare structural materials
   - Weld/fasten base platform
   - Install mounting points for boom crane
   - Install mounting points for hydraulic system
+  - Install mounting points for control system
   - Basic assembly verification
-- **Deliverable:** Base structure complete
+  - Surface finishing (if needed)
+- **Deliverable:** Base structure complete, assembly verification report
 
-#### Days 11-13: Boom Crane Fabrication
+#### Boom Crane Fabrication (Week 4 continued)
 - **Owner:** Leonard (Primary), Mohammed (Design Support)
 - **Tasks:**
   - Fabricate boom crane arms (scaled model)
-  - Install pivot points and bearings
+  - Machine pivot points
+  - Install pivot points and bearings/bushings
   - Mount hydraulic actuator connection points
   - Install battery gripper/release mechanism
+  - Design and fabricate gripper jaws
   - Test boom range of motion manually
-- **Deliverable:** Boom crane mechanism assembled
+  - Verify boom stability and rigidity
+- **Deliverable:** Boom crane mechanism assembled, range of motion verified
 
-#### Days 12-14: Battery Mockup & Interface
+#### Battery Mockup & Interface (Week 4 continued)
 - **Owner:** Sam (Lead), Leonard (Fabrication Support)
 - **Tasks:**
+  - Design battery mockup (scaled, ~5-10 lbs)
   - Create scaled battery mockups (2 units: old and new)
   - Design and fabricate battery mounting interface
+  - Design latch mechanism
+  - Design alignment features
   - Install connectors (mock electrical connections)
   - Test fit with boom crane gripper
-- **Deliverable:** Battery mockups and interface complete
+  - Verify battery can be securely held and released
+- **Deliverable:** Battery mockups and interface complete, fit verification report
 
-**Week 2 Milestone:** ✅ All mechanical components fabricated and assembled
+**Week 4 Milestone:** ✅ All mechanical components fabricated
 
 ---
 
-### Week 3: Integration & Control (Days 15-21)
+### Week 5: Assembly & Integration (Dec 4-10)
 
-#### Days 15-17: Hydraulic System Integration
+#### Mechanical Assembly
+- **Owner:** Leonard (Lead), All Team Members
+- **Tasks:**
+  - Assemble boom crane to base structure
+  - Install all mechanical components
+  - Verify all mechanical interfaces
+  - Test manual operation of all mechanisms
+  - Identify and fix any mechanical issues
+  - Document assembly process
+- **Deliverable:** Complete mechanical assembly, manual operation verified
+
+#### Hydraulic System Integration (Week 5 continued)
 - **Owner:** Ben (Lead), Sam (Control Support)
 - **Tasks:**
   - Install hydraulic pump and reservoir
   - Mount hydraulic cylinders to boom crane
   - Install control valves and plumbing
+  - Install pressure relief valves
   - Test hydraulic system manually (no automation)
   - Verify actuator range and force
   - Check for leaks and pressure issues
-- **Deliverable:** Hydraulic system operational (manual control)
+  - Calibrate pressure settings
+- **Deliverable:** Hydraulic system operational (manual control), leak check verified
 
-#### Days 16-18: Sensor Installation
-- **Owner:** Sam (Lead), Ben (Support)
+#### Sensor Installation & Control System Development (Week 5 continued)
+- **Owner:** Sam (Lead Sensors & Control), Ben (Hardware Support)
 - **Tasks:**
   - Install position sensors (potentiometers or encoders)
   - Install limit switches for boom positions
   - Install force sensors (if budget allows)
   - Install battery presence/detection sensors
   - Wire all sensors to microcontroller
-  - Test sensor readings
-- **Deliverable:** All sensors installed and calibrated
-
-#### Days 18-20: Control System Development
-- **Owner:** Sam (Primary), Ben (Hardware Support)
-- **Tasks:**
+  - Test and calibrate sensor readings
+  - Set up microcontroller development environment
   - Program microcontroller for hydraulic control
   - Implement boom positioning algorithm
   - Implement battery pickup sequence
@@ -159,26 +202,27 @@ This Gantt chart outlines the development timeline for the battery swapping subs
   - Implement safety interlocks
   - Create manual override capability
   - Test individual control sequences
-- **Deliverable:** Control system functional with basic sequences
+- **Deliverable:** All sensors installed and calibrated, control system functional with basic sequences
 
-#### Days 20-21: System Integration & Initial Testing
-- **Owner:** All Team Members
+**Week 5 Milestone:** ✅ Hydraulic and control systems integrated
+
+---
+
+### Week 6: Testing, Refinement & Documentation (Dec 11-19)
+
+#### System Integration & Initial Testing
+- **Owner:** All Team Members, Mohammed (Lead Testing)
 - **Tasks:**
   - Integrate all subsystems
   - Run first complete swap sequence (slow, manual intervention allowed)
   - Identify integration issues
   - Debug and fix problems
   - Refine control sequences
-- **Deliverable:** System performs complete swap sequence (may need refinement)
+  - Document integration process
+- **Deliverable:** Integrated system performs basic swap operation
 
-**Week 3 Milestone:** ✅ Integrated system performs basic swap operation
-
----
-
-### Week 4: Testing, Refinement & Documentation (Days 22-28)
-
-#### Days 22-24: Testing & Optimization
-- **Owner:** Mohammed (Lead Testing), All Team Members
+#### Testing, Optimization & Safety Verification (Week 6 continued)
+- **Owner:** Mohammed (Lead Testing), Ben (Lead Safety), All Team Members
 - **Tasks:**
   - Perform multiple swap cycles (target: 10+ successful swaps)
   - Measure swap time (target: < 90 seconds)
@@ -186,69 +230,77 @@ This Gantt chart outlines the development timeline for the battery swapping subs
   - Optimize control sequences for speed
   - Fine-tune hydraulic pressures and timing
   - Document any failures and solutions
-- **Deliverable:** System achieves < 90 second swap time with 100% reliability
-
-#### Days 23-25: Safety & Compliance Verification
-- **Owner:** Ben (Lead), All Team Members
-- **Tasks:**
   - Verify all safety systems functional
   - Check voltage compliance (< 48V)
   - Verify lockout/tagout procedures
   - Document safety features
   - Create safety checklist
-- **Deliverable:** Safety compliance verified
+  - Create test procedure document
+- **Deliverable:** System achieves < 90 second swap time with 100% reliability, safety compliance verified
 
-#### Days 25-27: Documentation
+#### Documentation & Final Preparation (Week 6 continued)
 - **Owner:** All Team Members (Assigned Sections)
 - **Tasks:**
-  - Write technical report
+  - Write technical report (executive summary, introduction, methodology, results, conclusions)
   - Document design decisions
   - Create assembly instructions
   - Document control system architecture
   - Create presentation slides
   - Prepare demonstration script
   - Record video of system operation (if possible)
-- **Deliverable:** Complete documentation package
-
-#### Days 27-28: Final Preparation & Rehearsal
-- **Owner:** All Team Members
-- **Tasks:**
+  - Create system operation manual
   - Final system testing and verification
   - Practice demonstration
   - Prepare backup plans for demo
   - Finalize presentation
   - Review all documentation
-- **Deliverable:** Ready for presentation
+  - Prepare Q&A responses
+- **Deliverable:** Complete documentation package, ready for demonstration
 
-**Week 4 Milestone:** ✅ Prototype complete, tested, documented, ready for demonstration
+**Week 6 Milestone:** ✅ First Prototype complete, tested, documented, ready for demonstration on December 19, 2025
+
+---
+
+## Next Semester Timeline (January - June 2026)
+
+**Note:** A detailed Gantt chart for the second semester (end of January through June 2026) will be developed after the first prototype demonstration. The second semester will focus on:
+- Full-scale system development
+- Enhanced features and capabilities
+- Integration with charging infrastructure
+- Field testing and validation
+- Final deliverable and showcase preparation (June 2026)
 
 ---
 
 ## Gantt Chart Visualization
 
 ```
-Task                                    | Week 1        | Week 2        | Week 3        | Week 4
-----------------------------------------|---------------|---------------|---------------|---------------
-Design & Planning                       | ████████      |               |               |
-  - Conceptual Design                   | ████          |               |               |
-  - CAD Design                          |     █████     |               |               |
-  - Component Selection & BOM           |       ████    |               |               |
-  - Design Review                       |           █   |               |               |
-Procurement                             |               | ████          |               |
-Fabrication                             |               | ████████      |               |
-  - Base Structure                      |               |   ████        |               |
-  - Boom Crane                          |               |     █████     |               |
-  - Battery Mockup                      |               |       ████    |               |
-Integration                             |               |               | ████████      |
-  - Hydraulic System                    |               |               | █████         |
-  - Sensor Installation                 |               |               |   ████        |
-  - Control System                      |               |               |     █████     |
-  - System Integration                  |               |               |         ████  |
-Testing & Documentation                 |               |               |               | ████████
-  - Testing & Optimization              |               |               |               | █████
-  - Safety Verification                 |               |               |               |   ███
-  - Documentation                       |               |               |               |     █████
-  - Final Preparation                   |               |               |               |         ████
+Task                                    | W1  | W2  | W3  | W4  | W5  | W6
+                                        |Nov6 |Nov13|Nov20|Nov27|Dec4 |Dec11
+                                        |Nov12|Nov19|Nov26|Dec3 |Dec10|Dec19
+----------------------------------------|-----|-----|-----|-----|-----|-----
+Design & Planning                       | ███ | █   |     |     |     |
+  - Conceptual Design                   | ███ |     |     |     |     |
+  - CAD Design                          | ███ |     |     |     |     |
+  - Component Selection & BOM           |     | ███ |     |     |     |
+  - Design Review                       |     | █   |     |     |     |
+Procurement                             |     | ███ | ███ |     |     |
+  - Order Placement                     |     | ███ |     |     |     |
+  - Component Receipt & Testing         |     |     | ███ |     |     |
+Fabrication                             |     |     |     | ███ |     |
+  - Base Structure                      |     |     |     | ███ |     |
+  - Boom Crane                          |     |     |     | ███ |     |
+  - Battery Mockup                      |     |     |     | ███ |     |
+Assembly & Integration                 |     |     |     |     | ███ |
+  - Mechanical Assembly                 |     |     |     |     | ███ |
+  - Hydraulic System                    |     |     |     |     | ███ |
+  - Sensors & Control System            |     |     |     |     | ███ |
+Testing & Documentation                 |     |     |     |     |     | ███
+  - System Integration                  |     |     |     |     |     | ███
+  - Testing & Optimization              |     |     |     |     |     | ███
+  - Safety Verification                 |     |     |     |     |     | ███
+  - Documentation                       |     |     |     |     |     | ███
+  - Final Preparation                   |     |     |     |     |     | ███
 ```
 
 ---
@@ -256,19 +308,24 @@ Testing & Documentation                 |               |               |       
 ## Critical Path Analysis
 
 ### Critical Path (Must Complete On Time)
-1. **Design & CAD** (Days 3-5) → Blocks procurement
-2. **BOM Finalization** (Days 4-6) → Blocks procurement
-3. **Component Procurement** (Days 8-9) → Blocks all fabrication
-4. **Boom Crane Fabrication** (Days 11-13) → Blocks integration
-5. **Control System Development** (Days 18-20) → Blocks testing
-6. **Testing & Optimization** (Days 22-24) → Blocks documentation
+1. **Design & CAD** (Week 1) → Blocks procurement
+2. **BOM Finalization** (Week 2) → Blocks procurement
+3. **Component Procurement** (Week 2-3) → Blocks all fabrication
+4. **Base Structure Fabrication** (Week 4) → Blocks boom crane assembly
+5. **Boom Crane Fabrication** (Week 4) → Blocks integration
+6. **Mechanical Assembly** (Week 5) → Blocks hydraulic integration
+7. **Hydraulic System Integration** (Week 5) → Blocks sensor installation
+8. **Control System Development** (Week 5) → Blocks testing
+9. **System Integration** (Week 6) → Blocks optimization
+10. **Testing & Optimization** (Week 6) → Blocks documentation
 
 ### Risk Mitigation
-- **Procurement Delays:** Order components early, have backup vendors identified
-- **Fabrication Issues:** Build in buffer time, have simplified backup design ready
-- **Control System Complexity:** Start with basic sequences, iterate
-- **Integration Problems:** Test subsystems independently before integration
-- **Time Constraints:** Prioritize core functionality over polish
+- **Procurement Delays:** Order components early (Week 4), have backup vendors identified
+- **Fabrication Issues:** Build in buffer time (4 weeks for fabrication), have simplified backup design ready
+- **Control System Complexity:** Start with basic sequences, iterate throughout Week 11
+- **Integration Problems:** Test subsystems independently before integration (Week 5 component testing)
+- **Time Constraints:** Prioritize core functionality over polish, use full semester timeline
+- **Design Iterations:** Allow time for design review and iterations (Weeks 1-3)
 
 ---
 
@@ -358,13 +415,17 @@ Testing & Documentation                 |               |               |       
 
 ## Notes
 
-- This timeline assumes 4 weeks of focused work with regular team meetings
-- Buffer time is built into each phase to account for unexpected issues
+- **Timeline:** November 6 - December 19, 2025 (6 weeks) for first prototype
+- **Final Deliverable:** First prototype demonstration on December 19, 2025
+- **Next Semester:** End of January - June 2026 for full system development and final showcase
+- This accelerated timeline requires focused work and regular team meetings
 - Team should meet weekly (Thursdays 8pm per team charter) to review progress
 - Critical decisions should be made as a team per team charter guidelines
 - All design changes must be documented per team charter decision-making process
+- **Priority:** Core functionality over polish for first prototype
+- **Risk Mitigation:** Parallel work streams where possible, simplified designs if needed
 
 ---
 
-*This Gantt chart is a living document and should be updated as the project progresses. Last updated: October 2025*
+*This Gantt chart is a living document and should be updated as the project progresses. Last updated: November 2025*
 
