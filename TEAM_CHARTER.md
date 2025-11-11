@@ -1,3 +1,9 @@
+---
+layout: default
+title: Team Charter
+permalink: /TEAM_CHARTER.html
+---
+
 # Team Charter
 
 **Date:** October 20, 2025

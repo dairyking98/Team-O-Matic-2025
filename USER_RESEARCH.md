@@ -1,3 +1,9 @@
+---
+layout: default
+title: User Research
+permalink: /USER_RESEARCH.html
+---
+
 # User Research
 
 **Class:** ENGR696-03  

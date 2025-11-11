@@ -1,3 +1,9 @@
+---
+layout: default
+title: Project Description
+permalink: /PROJECT_DESCRIPTION.html
+---
+
 # Team-O-Matic: Modular Battery Swapping System
 ## Overall Project Description
 

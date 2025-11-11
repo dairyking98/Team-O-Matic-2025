@@ -1,0 +1,51 @@
+# Site Configuration
+title: Team-O-Matic 2025
+description: Senior Capstone Project - Modular Battery Swapping System for Industrial Vehicles
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation - pages to include in header navigation
+header_pages:
+  - index.md
+  - PROJECT_DESCRIPTION.md
+  - TEAM_CHARTER.md
+  - DESIGN_SPECIFICATIONS.md
+  - STANDARDS_AND_SPECIFICATIONS.md
+  - USER_RESEARCH.md
+  - FUNDING_REQUEST.md
+  - GANTT_CHART.md
+  - WORK_BREAKDOWN_STRUCTURE.md
+
+# Minima theme settings
+minima:
+  skin: auto
+  social_links:
+    twitter: ""
+    github: ""
+
+# Site metadata
+author: Team-O-Matic
+email: ""
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
+  - README.md
+
+# Include custom CSS
+sass:
+  style: compressed
+

@@ -1,0 +1,252 @@
+/* Custom Styles for Team-O-Matic Site */
+
+/* Documentation Grid on Homepage */
+.documentation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.documentation-grid h3 {
+  margin-top: 0;
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+}
+
+.documentation-grid ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.documentation-grid li {
+  margin: 0.75rem 0;
+  padding: 0.5rem;
+  border-left: 3px solid #3498db;
+  padding-left: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.documentation-grid li:hover {
+  background-color: #f8f9fa;
+}
+
+.documentation-grid a {
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.documentation-grid a:hover {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+/* Team Grid */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.team-grid li {
+  padding: 0.75rem;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Enhanced Typography */
+.page-content {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.7;
+  color: #333;
+}
+
+.page-content h1 {
+  color: #2c3e50;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.page-content h2 {
+  color: #34495e;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.page-content h3 {
+  color: #555;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Navigation Enhancement */
+.site-nav .trigger {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.site-nav .page-link {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.site-nav .page-link:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+/* Table Styling */
+.page-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.page-content table th {
+  background-color: #3498db;
+  color: white;
+  padding: 0.75rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+.page-content table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.page-content table tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Code Blocks */
+.page-content pre {
+  background-color: #f4f4f4;
+  border-left: 4px solid #3498db;
+  padding: 1rem;
+  overflow-x: auto;
+  border-radius: 4px;
+}
+
+.page-content code {
+  background-color: #f4f4f4;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-family: "Courier New", monospace;
+}
+
+/* Links */
+.page-content a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.page-content a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+/* Blockquotes */
+.page-content blockquote {
+  border-left: 4px solid #3498db;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: #666;
+  font-style: italic;
+}
+
+/* Footer Enhancement */
+.site-footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+
+.site-footer a {
+  color: #ecf0f1;
+}
+
+.site-footer a:hover {
+  color: #3498db;
+}
+
+.footer-col-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+/* Header Enhancement */
+.site-header {
+  background-color: #2c3e50;
+  border-bottom: 3px solid #3498db;
+}
+
+.site-title {
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.site-title:hover {
+  color: #3498db;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+  .documentation-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .site-nav .trigger {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .footer-col-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .site-header,
+  .site-footer,
+  .site-nav {
+    display: none;
+  }
+  
+  .page-content {
+    max-width: 100%;
+  }
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus States for Accessibility */
+.page-content a:focus,
+.site-nav .page-link:focus {
+  outline: 2px solid #3498db;
+  outline-offset: 2px;
+}
+

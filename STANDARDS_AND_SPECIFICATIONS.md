@@ -1,3 +1,9 @@
+---
+layout: default
+title: Standards and Specifications
+permalink: /STANDARDS_AND_SPECIFICATIONS.html
+---
+
 # Standards and Specifications
 
 **Class:** ENGR696-03  

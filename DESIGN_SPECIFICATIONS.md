@@ -1,3 +1,9 @@
+---
+layout: default
+title: Design Specifications
+permalink: /DESIGN_SPECIFICATIONS.html
+---
+
 # Design Specifications Form
 
 **Date:** October 20, 2025

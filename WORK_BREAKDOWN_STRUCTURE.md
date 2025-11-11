@@ -1,3 +1,9 @@
+---
+layout: default
+title: Work Breakdown Structure
+permalink: /WORK_BREAKDOWN_STRUCTURE.html
+---
+
 # Work Breakdown Structure (WBS)
 ## Battery Swapping Prototype - 4-Week Deliverable
 

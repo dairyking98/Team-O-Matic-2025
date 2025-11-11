@@ -1,3 +1,9 @@
+---
+layout: default
+title: Funding Request
+permalink: /FUNDING_REQUEST.html
+---
+
 # IRA Funding Request for ENGR-696-03
 
 **Project Title:** Continuous Zero-Emission Operation Through a Scaled Modular Battery Swapping for Industrial Vehicle Operations

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Gantt Chart
+permalink: /GANTT_CHART.html
+---
+
 # Gantt Chart - Battery Swapping Prototype (First Prototype)
 
 **Project:** Team-O-Matic Battery Swapping System  
