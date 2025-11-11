@@ -30,39 +30,31 @@ This repository serves as the central hub for all project files, documentation, 
 
 ## Project Documentation
 
-<div class="documentation-grid">
-
 ### Core Documentation
 
-- **[Project Description](./PROJECT_DESCRIPTION.html)** - Overall project description, goals, value proposition, and competitive advantages
-- **[Design Specifications](./DESIGN_SPECIFICATIONS.html)** - Project requirements, constraints, objectives, and stakeholder analysis
-- **[Team Charter](./TEAM_CHARTER.html)** - Team values, roles, responsibilities, and operating procedures
+- **[Project Description](PROJECT_DESCRIPTION.html)** - Overall project description, goals, value proposition, and competitive advantages
+- **[Design Specifications](DESIGN_SPECIFICATIONS.html)** - Project requirements, constraints, objectives, and stakeholder analysis
+- **[Team Charter](TEAM_CHARTER.html)** - Team values, roles, responsibilities, and operating procedures
 
 ### Technical Documentation
 
-- **[Standards and Specifications](./STANDARDS_AND_SPECIFICATIONS.html)** - Relevant safety and regulatory standards for Li+ batteries, electrical systems, and industrial trucks
-- **[Work Breakdown Structure](./WORK_BREAKDOWN_STRUCTURE.html)** - Hierarchical project decomposition into manageable work packages
-- **[Gantt Chart](./GANTT_CHART.html)** - First prototype timeline (Nov 6 - Dec 19, 2025) with detailed task breakdown and milestones
+- **[Standards and Specifications](STANDARDS_AND_SPECIFICATIONS.html)** - Relevant safety and regulatory standards for Li+ batteries, electrical systems, and industrial trucks
+- **[Work Breakdown Structure](WORK_BREAKDOWN_STRUCTURE.html)** - Hierarchical project decomposition into manageable work packages
+- **[Gantt Chart](GANTT_CHART.html)** - First prototype timeline (Nov 6 - Dec 19, 2025) with detailed task breakdown and milestones
 
 ### Research & Planning
 
-- **[User Research](./USER_RESEARCH.html)** - Research questions (Likert scale and open-ended) for stakeholder feedback
-- **[Funding Request](./FUNDING_REQUEST.html)** - IRA funding request with BOM and budget justification
-
-</div>
+- **[User Research](USER_RESEARCH.html)** - Research questions (Likert scale and open-ended) for stakeholder feedback
+- **[Funding Request](FUNDING_REQUEST.html)** - IRA funding request with BOM and budget justification
 
 ---
 
 ## Team Members
 
-<div class="team-grid">
-
 - **Ben** - Hardware and control, building + hands-on skills
 - **Mohammed** - Solidworks + design
 - **Sam** - Microcontroller processing and digital signal processing + hands on
 - **Leonard** - Hands on fabrication, plastic, metal, welding. 3D modeling + Fusion 360. Circuitry and microcontrollers. Use of AI for process efficiency such as programming.
-
-</div>
 
 ---
 

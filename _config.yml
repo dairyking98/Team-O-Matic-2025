@@ -1,8 +1,8 @@
 # Site Configuration
 title: Team-O-Matic 2025
 description: Senior Capstone Project - Modular Battery Swapping System for Industrial Vehicles
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/Team-O-Matic-2025" # Project repository name for GitHub Pages
+url: "https://dairyking98.github.io" # Your GitHub username
 
 # Build settings
 markdown: kramdown
